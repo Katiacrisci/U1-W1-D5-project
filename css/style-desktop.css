@@ -1,0 +1,174 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+header {
+  background-color: black;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+}
+header img {
+  width: 10%;
+}
+#banner {
+  background-image: url("../images/banner.jpg");
+  padding: 250px;
+  text-align: center;
+  background-size: cover;
+  background-position: start;
+}
+#banner p {
+  width: 50%;
+  margin: auto;
+}
+h1 {
+  font-size: 2.5rem;
+  padding: 10px;
+  line-height: 1.15;
+}
+h1,
+h3 {
+  color: #25a2c3;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+h3 {
+  font-size: 1.2rem;
+  padding-bottom: 15px;
+}
+p {
+  font-size: 1.2rem;
+  font-family: "Open Sans";
+  text-align: center;
+  line-height: 1.65;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+button {
+  background-color: #f04c2f;
+  padding: 20px 40px;
+  border-radius: 7px;
+  color: white;
+  border: unset;
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: large;
+}
+span {
+  font-family: "Open Sans";
+}
+img {
+  width: 100%;
+}
+
+#perks {
+  padding: 9vw;
+}
+.half {
+  width: 40vw;
+  height: 100%;
+  vertical-align: middle;
+  display: inline-block;
+  margin: auto;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.perk {
+  margin: auto;
+  text-align: left;
+  padding: 20px;
+}
+.perk h3,
+.perk p {
+  text-align: left;
+
+  line-height: 1.75;
+}
+#notebook {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#orange {
+  background-color: #f04c2f;
+  color: white;
+  text-align: center;
+  padding: 150px 10px;
+}
+#orange h1 + p {
+  font-style: italic;
+}
+#orange h1 {
+  color: white;
+  padding-bottom: 50px;
+}
+#orange p + p {
+  padding: 0;
+}
+#orange p {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#benefits {
+  padding: 5vw;
+  text-align: center;
+  display: block;
+}
+.benefit {
+  border: 1px gainsboro solid;
+  border-radius: 5px;
+  margin-bottom: 35px;
+  display: inline-block;
+  width: 30%;
+  margin: 20px;
+}
+.benefit img {
+  height: 342px;
+}
+.benefit .perk h3,
+.benefit .perk p {
+  text-align: center;
+}
+footer {
+  background-color: #25a2c3;
+  padding: 40px 60px 40px 40px;
+  text-align: center;
+}
+footer h1 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 25px;
+}
+i {
+  background-color: white;
+  color: #25a2c3;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+footer p {
+  color: white;
+  font-weight: 200;
+  line-height: 1.25;
+  padding-bottom: 10px;
+}
+footer a {
+  color: unset;
+}
+hr {
+  width: 20%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer hr + p {
+  font-size: 1rem;
+  margin-top: 40px;
+}
+footer div {
+  width: 20%;
+  margin: auto;
+}
+footer div p {
+  text-align: left;
+}
